@@ -1,0 +1,75 @@
+# Les Oubliés d’Eremon
+
+Jeu de rôle (RPG) 2D développé en Java 17 et JavaFX dans le cadre du projet T-JAV-501.
+
+---
+
+## Présentation
+
+Les Oubliés d'Eremon est un RPG au style dark fantasy inspiré des vieux classiques.
+Parcourez un donjon mystérieux, combattez des monstres, améliorez votre personnage parmi 4 classes, gérez votre inventaire, et progressez dans des environnements générés à partir de tuiles et de sprites custom.
+
+---
+
+## Fonctionnalités principales
+
+- **Exploration** : Carte centrale générée (moteur Tiled), collisions, système de caméra, affichage dynamique du joueur et des monstres.
+- **Combats** : Système tour par tour avec compétences, points de vie, de mana, niveau, buffs/débuffs, XP, level up.
+- **Menus** :
+  - Menu principal avec titre animé et sélection de classe
+  - Menu pause (ESC) avec boutons Reprendre / Paramètres / Menu principal / Quitter
+  - Menu paramètres avec sliders de volume, luminosité…
+  - Inventaire, panneau d’équipement, artisanat intégrés en jeu
+- **4 classes jouables** : Mages, Guerriers, Assassins, Archers (sprites et stats dédiés)
+- **Système de sauvegarde (optionnel à activer)**
+- **Effets graphiques :** HUD, animations SpriteAnimator, gestion de lumière façon dark fantasy
+- **Sons et musiques** (fichiers à placer dans `/resources/sound/`, voir instructions)
+
+---
+
+## Installation et Lancement
+
+### **Prérequis**
+- Java 17+
+- Maven 3.x
+
+### **Démarrage rapide**
+
+À la racine du projet
+
+mvn javafx:run
+
+
+Le jeu se lance en plein écran. Vous pouvez déplacer votre personnage avec les touches directionnelles et ouvrir le menu pause avec `ESC`.
+
+---
+
+## Structure du projet
+
+
+---
+
+## Crédits
+
+- Auteur principal Amir Olysse Cyrine
+- Framework : JavaFX 17
+
+---
+
+## Roadmap / Améliorations prévues
+
+- Sauvegarde / chargement de partie
+- Bestiaire et encyclopédie in-game
+- Plus de compétences, nouveaux boss, nouvelles maps
+- Options : entièrement paramétrables (son, touches, langue, accessibilité)
+
+---
+
+## Licence
+
+Projet académique.
+Usage et redistribution interne autorisés pour évaluation / amélioration pédagogique.
+
+---
+
+
